@@ -1,0 +1,10 @@
+{
+  "name": "babel-plugin-bonify-rocks",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-plugin-tester": "8.0.1",
+    "jest": "25.1.0"
+  }
+}

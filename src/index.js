@@ -17,9 +17,11 @@ module.exports = function bonifyRocks({ types: t }) {
           return;
         }
 
-        path.node.arguments.unshift(
-          t.stringLiteral('Bonify rocks')
-        );
+        if (path.node.arguments.length === 1) {
+          path.get('arguments.0').replaceWith(
+            t.binaryExpression('+', t.stringLiteral('Bonify rocks'), path.node.arguments[0])
+          );
+        }
       }
     }
   }

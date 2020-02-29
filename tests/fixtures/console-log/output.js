@@ -1,1 +1,1 @@
-console.log("Bonify rocks", n);
+console.log("Bonify rocks" + n);

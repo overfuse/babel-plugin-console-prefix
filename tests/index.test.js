@@ -1,6 +1,6 @@
 const path = require('path');
 const pluginTester = require('babel-plugin-tester').default;
-const plugin = require('../src');
+const plugin = require('../lib');
 
 pluginTester({
   plugin,

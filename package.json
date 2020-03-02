@@ -1,13 +1,23 @@
 {
-  "name": "babel-plugin-bonify-rocks",
+  "name": "@overfuse/babel-plugin-bonify-rocks",
   "version": "0.1.0",
-  "main": "index.js",
-  "license": "MIT",
+  "main": "lib/index.js",
   "scripts": {
     "test": "jest"
   },
   "devDependencies": {
     "babel-plugin-tester": "8.0.1",
     "jest": "25.1.0"
-  }
+  },
+  "user": {
+    "name": "Andrey Zakharov",
+    "email": "fuse5@yandex.ru",
+    "url": "https://github.com/overfuse"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/overfuse/babel-plugin-bonify-rocks"
+  },
+  "homepage": "https://github.com/overfuse/babel-plugin-bonify-rocks",
+  "license": "ISC"
 }

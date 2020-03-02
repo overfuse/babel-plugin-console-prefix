@@ -1,6 +1,6 @@
 # babel-plugin-bonify-rocks
 
-Appends `Bonify rocks` to `console.log` argument.
+A Babel plugin which appends `Bonify rocks` to `console.log` argument.
 
 ## Example transpilation
 

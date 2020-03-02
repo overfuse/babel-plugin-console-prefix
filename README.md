@@ -1,6 +1,25 @@
-# babel-plugin-bonify-rocks
+# @overfuse/babel-plugin-console-prefix
 
-A Babel plugin which appends `Bonify rocks` to `console.log` argument.
+Babel plugin which adds a prefix to `console.log` argument.
+
+## Install 
+
+```sh
+yarn add @overfuse/babel-plugin-console-prefix
+```
+
+## Usage
+
+Via `.babelrc`
+
+```json
+{
+  "plugins": [
+    ["@overfuse/babel-plugin-console-prefix", { "prefix": "Bonify rocks" }
+  ]
+}
+```
+
 
 ## Example transpilation
 

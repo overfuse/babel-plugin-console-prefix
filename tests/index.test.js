@@ -4,5 +4,8 @@ const plugin = require('../lib');
 
 pluginTester({
   plugin,
+  pluginOptions: {
+    prefix: 'Bonify rocks',
+  },
   fixtures: path.join(__dirname, 'fixtures')
 });

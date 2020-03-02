@@ -1,6 +1,6 @@
 {
-  "name": "@overfuse/babel-plugin-bonify-rocks",
-  "version": "0.1.0",
+  "name": "@overfuse/babel-plugin-console-prefix",
+  "version": "0.2.0",
   "main": "lib/index.js",
   "scripts": {
     "test": "jest"
@@ -16,8 +16,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/overfuse/babel-plugin-bonify-rocks"
+    "url": "https://github.com/overfuse/babel-plugin-console-prefix"
   },
-  "homepage": "https://github.com/overfuse/babel-plugin-bonify-rocks",
+  "homepage": "https://github.com/overfuse/babel-plugin-console-prefix",
   "license": "ISC"
 }

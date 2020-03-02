@@ -15,7 +15,7 @@ Via `.babelrc`
 ```json
 {
   "plugins": [
-    ["@overfuse/babel-plugin-console-prefix", { "prefix": "Bonify rocks" }
+    ["@overfuse/babel-plugin-console-prefix", { "prefix": "Bonify rocks" }]
   ]
 }
 ```
